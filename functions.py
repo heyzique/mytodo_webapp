@@ -1,4 +1,5 @@
 # Constant variable are in all caps
+# Text file acts as a database to store existing items / new items
 FILEPATH = "todo.txt"
 
 
