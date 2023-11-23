@@ -7,6 +7,8 @@ def add_todo():
     to_do = st.session_state["new_todo"] + "\n"
     todos.append(to_do)
     functions.write_todos(todos)
+    # Clear the input box after hitting enter
+    st.session_state["new_todo"] = ""
 
 
 # Variable to store get_todos functions (read text file)
